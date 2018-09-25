@@ -1,0 +1,116 @@
+form {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+}
+
+.itop {
+    background: #6A7D8F;
+    color:#FFF;
+    height: 2rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.ibutton {
+    margin: 1rem 0;
+    background:#8B9CAC !important;
+    color:#FFF !important;
+    font-size:0.9rem !important;
+}
+
+.idiv_left {
+    text-align: left;
+}
+.idiv_center {
+    text-align: center;
+}
+.idiv_right {
+    text-align: right;
+}
+
+.idiv_c1 {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.idiv_line {
+    border-right: 1px dashed #93999E;
+    box-sizing: border-box;
+}
+
+.idiv_line2 {
+    border-right: 1px solid #797979;
+    box-sizing: border-box;
+}
+
+.ifont1 {
+    font-size: 1.2rem;
+    color: #0199CC;
+}
+
+.ifont2 {
+    font-size: 0.9rem;
+    color: #0199CC;
+}
+
+.ifont3 {
+    font-size: 2rem;
+    color: #FE5050;
+}
+
+.ifont4 {
+    font-size: 0.9rem;
+}
+
+.ifont5 {
+    font-size: 2rem;
+    color: #0199CC;
+}
+
+.ifont6 {
+    font-size: 0.8rem;
+}
+
+.ifont7 {
+    font-size: 2rem;
+}
+
+#intelligentAmt{
+    padding: .25em .6em;
+    font-size:14px
+}
+
+.icolor_red {
+    color: #FE5050;
+}
+
+.icolor_green {
+    color: #379B37;
+}
+
+.itable1 {
+    margin: 1rem auto;
+    font-size: 0.9rem;
+}
+
+.ibutton_circular {
+    line-height: 20px;
+    border:1px solid #ccc;
+    border-radius: 25px;
+    height:25px;
+    width:25px;
+    background:#fff;
+}
+
+.pure-table-no-border {
+    font-size: 0.8rem;
+    border-width: 0 !important;
+    text-align: right;
+    vertical-align: middle;
+}
+.pure-table-no-border td,
+.pure-table-no-border th {
+    border-width: 0 !important;
+}
