@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.annotation.Resource;
 
+import com.yxb.shop.model.UserDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cache.CacheManager;
@@ -24,6 +25,11 @@ public class IndexController {
     @RequestMapping("/")
     public String Init(Model model) {
        // logger.debug("init start!");
+
+        UserDTO ud = new UserDTO();
+        ud.setName("aaa");
+        ud.setEmail(ud.getName());
+        ud.setName("bbb");
 
         List<GoodsDTO> goodsList = goodsService.getAllGoods();
         model.addAttribute("goodsList", goodsList);
