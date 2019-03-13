@@ -7,7 +7,15 @@
           http://www.springframework.org/schema/security
           http://www.springframework.org/schema/security/spring-security.xsd">
 
+    <security:http pattern="/WEB-INF/views/login.jsp" security="none" />
     <security:http auto-config="true">
+
+        <security:form-login login-page="/account/login"
+                             default-target-url="/"
+                             authentication-failure-url="/WEB-INF/views/error.jsp"
+                             username-parameter="username"
+                             password-parameter="password" />
+
         <security:intercept-url pattern="/**" access="hasRole('ROLE_USER')" />
     </security:http>
 
